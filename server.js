@@ -85,7 +85,6 @@ app.post('/add', function(req, res) {
 
 app.get('/delete/:id', function(req, res) {
   title = req.query.title;
-  console.log(title);
   db.run("DELETE FROM bookmarks WHERE id='" + req.params.id + "'", function(err) {
       if(err !== null) {
           res.send(500, "An error has occurred -- " + err);
