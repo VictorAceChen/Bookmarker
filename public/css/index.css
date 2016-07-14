@@ -1,0 +1,59 @@
+.booking{
+  z-index: 10;
+  text-align: center;
+  box-shadow: 0 4px 6px #000;
+  -webkit-box-shadow: 0 4px 6px #000;
+  border-top: 2px solid #333;
+  position: relative;
+width: 960px;
+padding: 0;
+background-color: #fff;
+margin: 0 auto;
+}
+
+form {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: none;
+  height: auto;
+  border-bottom: #ccc;
+
+  position: relative;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  top: 0;
+  text-align: left;
+}
+
+form *{
+  margin-left: 40px;
+}
+
+input {
+  width: 210px;
+padding-left: 40px;
+height: 27px;
+padding-right: 10px;
+padding-top: 0;
+outline: 0;
+margin-left: 10px;
+top: 20px;
+color: #f30;
+
+font-family: AvenirNext,HelveticaNeue-Light,"Helvetica Neue",Gill Sans MT,Arial,sans-serif;
+font-weight: 500;
+font-size: 14px;
+}
+
+button, .submit{
+  background: linear-gradient(to bottom,#F30 100%,#F30 100%);
+  vertical-align: middle;
+  color: white;
+  height: 45px;
+}
+
+#status{
+  color: red;
+}
