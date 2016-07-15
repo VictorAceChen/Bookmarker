@@ -57,3 +57,17 @@ button, .submit{
 #status{
   color: red;
 }
+
+a:link {
+    cursor: pointer;
+    color: #1a0dab;
+    margin-right: 15px;
+}
+
+.mblink:visited, a:visited {
+    color: #609;
+}
+
+a:hover {
+  text-decoration: underline;
+}
